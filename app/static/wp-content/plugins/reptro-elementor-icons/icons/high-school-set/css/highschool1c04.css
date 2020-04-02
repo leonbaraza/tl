@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "Highschool";
+  src: url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/high-school-set/fonts/Flaticon.eot");
+  src: url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/high-school-set/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/high-school-set/fonts/Flaticon.woff") format("woff"),
+       url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/high-school-set/fonts/Flaticon.ttf") format("truetype"),
+       url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/high-school-set/fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Highschool";
+    src: url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/high-school-set/fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="hs-"]:before, [class*=" hs-"]:before,
+[class^="hs-"]:after, [class*=" hs-"]:after { 
+  font-family: Highschool;
+  font-style: normal;
+  display: inline-block;
+}
+
+.hs-agenda:before { 
+  content: "\f100"; 
+}
+.hs-american-football:before { 
+  content: "\f101"; 
+}
+.hs-apple:before { 
+  content: "\f102"; 
+}
+.hs-atom:before { 
+  content: "\f103"; 
+}
+.hs-backpack:before { 
+  content: "\f104"; 
+}
+.hs-basketball:before { 
+  content: "\f105"; 
+}
+.hs-bell:before { 
+  content: "\f106"; 
+}
+.hs-biology:before { 
+  content: "\f107"; 
+}
+.hs-blackboard:before { 
+  content: "\f108"; 
+}
+.hs-blackboard-eraser:before { 
+  content: "\f109"; 
+}
+.hs-book:before { 
+  content: "\f10a"; 
+}
+.hs-briefcase:before { 
+  content: "\f10b"; 
+}
+.hs-calculator:before { 
+  content: "\f10c"; 
+}
+.hs-calendar:before { 
+  content: "\f10d"; 
+}
+.hs-carpentry:before { 
+  content: "\f10e"; 
+}
+.hs-chalk:before { 
+  content: "\f10f"; 
+}
+.hs-chemistry:before { 
+  content: "\f110"; 
+}
+.hs-chess:before { 
+  content: "\f111"; 
+}
+.hs-clock:before { 
+  content: "\f112"; 
+}
+.hs-clock-1:before { 
+  content: "\f113"; 
+}
+.hs-coffee:before { 
+  content: "\f114"; 
+}
+.hs-column:before { 
+  content: "\f115"; 
+}
+.hs-compass:before { 
+  content: "\f116"; 
+}
+.hs-computer:before { 
+  content: "\f117"; 
+}
+.hs-crayons:before { 
+  content: "\f118"; 
+}
+.hs-desk-chair:before { 
+  content: "\f119"; 
+}
+.hs-desk-lamp:before { 
+  content: "\f11a"; 
+}
+.hs-diploma:before { 
+  content: "\f11b"; 
+}
+.hs-diploma-1:before { 
+  content: "\f11c"; 
+}
+.hs-earth-globe:before { 
+  content: "\f11d"; 
+}
+.hs-ebook:before { 
+  content: "\f11e"; 
+}
+.hs-eraser:before { 
+  content: "\f11f"; 
+}
+.hs-file:before { 
+  content: "\f120"; 
+}
+.hs-flag:before { 
+  content: "\f121"; 
+}
+.hs-folder:before { 
+  content: "\f122"; 
+}
+.hs-football:before { 
+  content: "\f123"; 
+}
+.hs-glasses:before { 
+  content: "\f124"; 
+}
+.hs-glue-stick:before { 
+  content: "\f125"; 
+}
+.hs-grades:before { 
+  content: "\f126"; 
+}
+.hs-graduate:before { 
+  content: "\f127"; 
+}
+.hs-graduate-1:before { 
+  content: "\f128"; 
+}
+.hs-graduate-2:before { 
+  content: "\f129"; 
+}
+.hs-hands:before { 
+  content: "\f12a"; 
+}
+.hs-headphones:before { 
+  content: "\f12b"; 
+}
+.hs-high-school:before { 
+  content: "\f12c"; 
+}
+.hs-high-school-1:before { 
+  content: "\f12d"; 
+}
+.hs-history:before { 
+  content: "\f12e"; 
+}
+.hs-homework:before { 
+  content: "\f12f"; 
+}
+.hs-jacket:before { 
+  content: "\f130"; 
+}
+.hs-language:before { 
+  content: "\f131"; 
+}
+.hs-learning:before { 
+  content: "\f132"; 
+}
+.hs-learning-1:before { 
+  content: "\f133"; 
+}
+.hs-literature:before { 
+  content: "\f134"; 
+}
+.hs-lockers:before { 
+  content: "\f135"; 
+}
+.hs-loudspeaker:before { 
+  content: "\f136"; 
+}
+.hs-marker:before { 
+  content: "\f137"; 
+}
+.hs-milk:before { 
+  content: "\f138"; 
+}
+.hs-mortarboard:before { 
+  content: "\f139"; 
+}
+.hs-newspaper:before { 
+  content: "\f13a"; 
+}
+.hs-notebook:before { 
+  content: "\f13b"; 
+}
+.hs-notebook-1:before { 
+  content: "\f13c"; 
+}
+.hs-orientation:before { 
+  content: "\f13d"; 
+}
+.hs-owl:before { 
+  content: "\f13e"; 
+}
+.hs-padlock:before { 
+  content: "\f13f"; 
+}
+.hs-paper-plane:before { 
+  content: "\f140"; 
+}
+.hs-pen:before { 
+  content: "\f141"; 
+}
+.hs-pen-1:before { 
+  content: "\f142"; 
+}
+.hs-pencil:before { 
+  content: "\f143"; 
+}
+.hs-pencil-1:before { 
+  content: "\f144"; 
+}
+.hs-pencil-2:before { 
+  content: "\f145"; 
+}
+.hs-pencil-3:before { 
+  content: "\f146"; 
+}
+.hs-pencil-case:before { 
+  content: "\f147"; 
+}
+.hs-pencils:before { 
+  content: "\f148"; 
+}
+.hs-physics:before { 
+  content: "\f149"; 
+}
+.hs-pom-pom:before { 
+  content: "\f14a"; 
+}
+.hs-protractor:before { 
+  content: "\f14b"; 
+}
+.hs-scarf:before { 
+  content: "\f14c"; 
+}
+.hs-scarf-1:before { 
+  content: "\f14d"; 
+}
+.hs-scarfs:before { 
+  content: "\f14e"; 
+}
+.hs-schedule:before { 
+  content: "\f14f"; 
+}
+.hs-school-bus:before { 
+  content: "\f150"; 
+}
+.hs-science:before { 
+  content: "\f151"; 
+}
+.hs-scissors:before { 
+  content: "\f152"; 
+}
+.hs-screen:before { 
+  content: "\f153"; 
+}
+.hs-set-square:before { 
+  content: "\f154"; 
+}
+.hs-sharpener:before { 
+  content: "\f155"; 
+}
+.hs-sheet-music:before { 
+  content: "\f156"; 
+}
+.hs-stapler:before { 
+  content: "\f157"; 
+}
+.hs-studies:before { 
+  content: "\f158"; 
+}
+.hs-swimming-pool:before { 
+  content: "\f159"; 
+}
+.hs-teacher-desk:before { 
+  content: "\f15a"; 
+}
+.hs-test:before { 
+  content: "\f15b"; 
+}
+.hs-theater:before { 
+  content: "\f15c"; 
+}
+.hs-trophy:before { 
+  content: "\f15d"; 
+}
+.hs-uniform:before { 
+  content: "\f15e"; 
+}
+.hs-violin:before { 
+  content: "\f15f"; 
+}
+.hs-watercolor:before { 
+  content: "\f160"; 
+}
+.hs-writing:before { 
+  content: "\f161"; 
+}
+.hs-yearbook:before { 
+  content: "\f162"; 
+}
+.hs-yearbook-1:before { 
+  content: "\f163"; 
+}

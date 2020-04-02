@@ -1,0 +1,892 @@
+/*
+|===================
+|  MEDIUM DEVICES
+|===================
+*/
+@media only screen and (max-width: 1200px) {
+  .section-separator {
+    padding: 50px 0;
+  }
+  body .navbar li {
+    padding: 0 10px;
+  }
+  .xt-footer .footer-nav ul li {
+    margin-right: 20px;
+  }
+  .header-contact ul li {
+    margin-right: 10px;
+  }
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .xt-featured-member #quote-carousel .carousel-indicators {
+    margin-bottom: 30px;
+  }
+  .navbar-nav li a {
+    padding-left: 5px!important;
+  }
+  .navbar-nav > li > a:before {
+    left: 5px!important;
+  }
+  .xt-main-navbar-inner .xt-navbar-main-menu {
+    padding-right: 15px;
+  }
+  .xt-navbar-side .btn.btn-lg.btn.btn-fill {
+    padding: 6px 18px;
+  }
+}
+/*
+|===================
+| TAB LANDSCAPE
+|===================
+*/
+@media only screen and (max-width: 1024px) {
+  .elementor-widget-counter {
+    border: 0;
+  }
+  .xt-business-home .slider-content {
+    padding: 0 200px;
+  }
+  .xt-our-service .each-inner .xt-service-inner-2 .figure-caption {
+    padding: 0 15px;
+  }
+  .xt-business-2 .business-content h2 {
+    padding-right: 200px;
+  }
+  .xt-business-2 .business-content p {
+    padding: 0;
+  }
+  .reptro-hero-area-column {
+    padding: 90px 40px;
+  }
+  .xt-service-two-area .xt-service-two-item .xt-service-two-inner {
+    padding: 20px;
+  }
+  .xt-service-two-area {
+    margin: 0;
+  }
+  .xt-service .xt-service-inner {
+    padding: 20px;
+  }
+  .xt-blog-post-slider.owl-theme .owl-nav > div,
+  .reptro-course-slider.owl-theme .owl-nav > div,
+  .reptro-course-category-slider.owl-theme .owl-nav > div {
+    position: unset;
+    margin: 30px 15px 30px 15px;
+  }
+  [data-pagination="false"].xt-blog-post-slider.owl-theme .owl-nav > div,
+  [data-pagination="false"].reptro-course-slider.owl-theme .owl-nav > div,
+  [data-pagination="false"].reptro-course-category-slider.owl-theme .owl-nav > div {
+    margin: 25px 15px 0;
+  }
+}
+/*
+|===================
+| TAB PORTRAIT
+|===================
+*/
+@media only screen and (max-width: 991px) {
+  .xt-service-two-area {
+    border-radius: 0;
+  }
+  .category-hidden {
+    display: none;
+  }
+  .xt-featured-member #quote-carousel .carousel-indicators {
+    margin-bottom: 0;
+  }
+  .xt-skills .skill-info {
+    padding: 36px 30px;
+  }
+  .xt-blog .blog-inner .inner-content .post-info span {
+    display: block;
+  }
+  .kc_row .xt-blog .blog-inner .inner-content .post-info span {
+    display: inline-block;
+  }
+  .xt-blog .blog-inner .inner-content .post-info .post-author {
+    margin-bottom: 10px;
+  }
+  .xt-contact .section-title {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  .xt-popular-post ul li {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .xt-popular-post ul li .side-post-content {
+    padding-left: 0px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .xt-blog .blog-full-post .tag-social .social {
+    float: none;
+    margin-top: 10px;
+  }
+  .xt-popular-post ul li img {
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: center;
+  }
+  .subpage-header .overlay {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .vc_row .wpb_column:nth-child(even) .count-inner {
+    border-right-color: transparent;
+  }
+  .xt-featured-list .featured-img {
+    padding: 0 10px;
+  }
+  .xt-featured-list .featured-list-inner .btn {
+    margin-top: 0px;
+  }
+  .xt-featured-list .featured-list-inner p {
+    margin: 20px 0;
+    padding-right: 30px;
+  }
+  .header-contact ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+  }
+  .xt-business-2 .overlay {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .xt-contact #map {
+    min-height: 400px;
+    width: 100%;
+  }
+  .count-inner .fa {
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: inline-grid;
+  }
+  .site-footer .footer-widgets .widget {
+    margin-bottom: 40px;
+  }
+  .xt-blog {
+    margin-bottom: 30px;
+  }
+}
+
+/*
+|===================
+| iPad mini
+|===================
+*/
+
+@media only screen and (min-width: 768px) {
+  .reptro-mobile-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .elementor-element .woocommerce ul.products[class*=columns-] li.product, 
+  .woocommerce-page .elementor-element ul.products[class*=columns-] li.product {
+    margin-bottom: 30px;
+  }
+  .elementor-element .woocommerce ul.products[class*=columns-] li.product:last-child, 
+  .woocommerce-page .elementor-element ul.products[class*=columns-] li.product:last-child {
+    margin-bottom: 0;
+  }
+  .reptro-section-padding-large.elementor-top-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .course-item-popup > .site {
+    display: none;
+  }
+  body.course-item-popup #learn-press-content-item {
+    top: 0!important;
+  }
+  body #course-item-content-header .course-title {
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 0!important;
+    max-width: 170px;
+    margin-top: 10px;
+  }
+  body #course-item-content-header .form-button.lp-button-back button {
+    padding: 9px 15px 11px;
+  }
+  .xt-course-info li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .xt-course-content {
+    border-right: 0;
+  }
+  .xt-course-info {
+    margin-top: 30px;
+  }
+  html body section[data-kc-parallax=true].kc-elm {
+    background-attachment: unset!important;
+    background-position: center!important;
+  }
+  .xt-main-nav {
+    display: none;
+  }
+  .reptro-mobile-menu {
+    display: block;
+  }
+  .site-header-type-default .logo-wrapper .site-title {
+    margin: 8px 0!important;
+  }
+  .xt-head-2 .logo-wrapper img {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+  }
+  .mobile-menu-area > div.logo-wrapper {
+    position: absolute;
+    top: 9px;
+    left: 23px;
+    z-index: 5;
+  }
+  .section-title-font-size-xx_large {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .xt-page-title-area {
+    padding-top: 40px!important;
+    padding-bottom: 40px!important;
+  }
+  .xt_kc_row_has_padding,
+  .reptro-section-padding-large.elementor-top-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .reptro-section-padding-medium {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .single-team {
+    margin-bottom: 30px;
+  }
+  .kc_counter_box {
+    border-right-width: 0;
+  }
+  .xt-featured-member .item .member-img {
+    padding: 30px 0 0;
+  }
+  .xt-contact-call-to-action span.xt-contact-detail:before {
+    display: none;
+  }
+  .xt-contact-call-to-action span.xt-contact-detail {
+    margin-top: 10px;
+    display: block;
+  }
+  .reptro-hero-area-right {
+    flex-grow: 3;
+  }
+  .xt-service-two-area .xt-service-two-item .xt-service-two-inner {
+    padding: 30px;
+  }
+  .xt-service-two-area > .row > .xt-service-two-item {
+    border-bottom: 1px solid #ededed;
+  }
+  .xt-service-two-area > .row > .xt-service-two-item:nth-last-child(-n+2) {
+    border-bottom: 0;
+  }
+  .reptro-hero-area-column {
+    padding: 60px 60px 60px 24px;
+  }
+  .reptro-event-item .reptro-event-date span.reptro-event-year {
+    width: auto;
+    margin: 0 auto;
+    padding: 1px 15px;
+  }
+  .portfolio-nav ul li,
+  body .reptro-category-items li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .portfolio-nav, .reptro-category-items-filter {
+    margin-bottom: 30px;
+  }
+}
+
+/*
+|===================
+| Small desives
+|===================
+*/
+@media only screen and (max-width: 767px) {
+  .reptro-hero-area .wpcf7 {
+    margin-bottom: 30px;
+  }
+  .reptro-event-item .reptro-event-date {
+    display: none;
+  }
+  .mobile-menu-area > div.logo-wrapper {
+    left: 15px; 
+  }
+  .slicknav_btn {
+    margin-right: 15px;
+  }
+  .xt-blog .entry-title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .xt-blog .blog-inner .inner-content.shadow {
+    padding: 15px;
+  }
+  .site-info .text-right,
+  .site-footer .site-info p {
+    text-align: center;
+  }
+  .reptro-hero-area {
+    display: block;    
+  }
+  .reptro-hero-area .reptro-hero-area-left{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .reptro-hero-area-column {
+    padding: 0 15px;
+  }
+  .reptro-hero-area-play-btn {
+    position: unset;
+    display: block;
+    margin: 0 auto;
+  }
+  .reptro-hero-area-left h2 {
+    font-size: 35px;
+  }
+  .reptro-hero-area .xt_sign_up_now_field.xt_sign_up_now_submit {
+    text-align: center;
+  }
+  #pmpro_billing_address_fields>tbody>tr>td>div {
+    display: block;
+    width: 100%;
+  }
+  .count-inner {
+    margin-bottom: 30px;
+  }
+  .count-inner h4 {
+    margin-top: 0;
+  }
+  li > ol {
+    margin-left: 15px;
+    padding-left: 5px;
+  }
+  .strict {
+    background-color: #fff;
+    padding-bottom: 0;
+  }
+  .xt-header-top {
+    padding: 30px 0;
+    overflow: hidden;
+    padding-bottom: 10px;
+    display: none;
+  }
+  .menu-spacing.strict {
+    -webkit-box-shadow: 0px 0px 28px -12px rgba(10, 10, 10, 0.74) ;
+    -moz-box-shadow: 0px 0px 28px -12px rgba(10, 10, 10, 0.74) ;
+    -ms-box-shadow: 0px 0px 28px -12px rgba(10, 10, 10, 0.74) ;
+    -o-box-shadow: 0px 0px 28px -12px rgba(10, 10, 10, 0.74) ;
+    box-shadow: 0px 0px 28px -12px rgba(10, 10, 10, 0.74) ;
+    margin: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .navbar-right {
+    margin-right: -15px;
+  }
+  .section-title {
+    margin-bottom: 50px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .section-title h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .navbar-brand {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  .two-column-content {
+    display: block;
+  }
+  .two-column-content .inner {
+    display: none;
+  }
+  .xt-logo img {
+    display: none;
+  }
+  .header-contact ul li {
+    display: inline-block;
+    padding: 2px 0;
+    margin-bottom: 10px;
+  }
+  .business-content h2 {
+    font-size: 42px;
+    line-height: 54px;
+  }
+  .xt-business-home .slider-content {
+    padding: 0 15px;
+  }
+  .xt-business-home .business-content .btn {
+    margin: 0 3px;
+    margin-bottom: 15px;
+  }
+  .xt-business-home .bx-overlay {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .xt-service .xt-service-inner .title-hr{
+  	float: inherit;
+  }
+  .title-hr {
+    margin: 0 auto;
+  }
+  .xt-service .xt-service-inner a {
+    float: none;
+  }
+  .xt-count .count-inner:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+  }
+  .xt-count .count-inner {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom: 20px;
+    border-right: 0px;
+  }
+  .xt-featured-list .featured-img img {
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .xt-featured-list .featured-list-inner ul li,
+  ul.reptro_fancy_lists li {
+    margin: 10px 0;
+    text-align: left;
+    float: left;
+  }
+  .xt-featured-list .featured-list-inner .btn {
+    margin-top: 20px;
+  }
+  .portfolio-nav, .reptro-category-items-filter {
+    margin-bottom: 15px;
+  }
+  .carousel-indicators {
+    width: 100%;
+  }
+  .xt-featured-member .item {
+    padding: 0;
+  }
+  .xt-logos .logo-item {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin: 0 0 10px;
+  }
+  .xt-skills .skill-info {
+    padding: 36px 10px;
+    margin-bottom: 40px;
+  }
+  .xt-contact #map {
+    min-height: 400px;
+  }
+  .xt-footer-get-touch .get-touch-inner .f-icon {
+    width: 100px;
+    display: block;
+    float: none;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .xt-footer-get-touch .get-touch-inner .f-icon .fa {
+    font-size: 44px;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+  }
+  .xt-footer-get-touch .get-touch-btn {
+    padding: 30px 0;
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .xt-footer .footer-social {
+    float: none;
+  }
+  .xt-footer .footer-nav {
+    padding-bottom: 0;
+  }
+  .xt-footer .footer-nav ul li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  .xt-contact-inner p {
+    padding: 0 15px;
+  }
+  .xt-service .section-separator {
+    padding-bottom: 0;
+  }
+  .xt-service .xt-service-inner p {
+    margin-bottom: 10px;
+    float: none;
+  }
+  .xt-featured-list .featured-list-inner {
+    padding-left: 0px;
+  }
+  .xt-featured-list .featured-list-inner p {
+    padding-right: 0px;
+  }
+  .other-skills {
+    padding: 0;
+  }
+  .header-contact-2 .xt-header-search {
+    display: none;
+  }
+  .xt-business-2 .business-content {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .xt-business-2 .business-content h2 {
+    padding-right: 0px;
+  }
+  .xt-pre-header-left-content img {
+    display: none;
+  }
+  .contact-3 .section-title {
+    text-align: center;
+  }
+  .contact-3 .form {
+    float: none;
+  }
+  .contact-3 .section-title .title-hr {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    float: none;
+  }
+  .btn.btn-big {
+    padding: 10px 40px;
+  }
+  .xt-footer-3 .xt-footer-info-3 img {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .xt-footer-3 .footer-3-tag {
+    margin: 40px 0;
+  }
+  .xt-footer-3 .footer-3-tag h5 {
+    margin-bottom: 15px;
+  }
+  .xt-footer-3 .footer-3-address h5 {
+    margin-bottom: 15px;
+  }
+  .xt-footer-3-buttom p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-3-address .xt-3-address {
+    display: block;
+  }
+  .xt-featured-list .featured-list-inner ul {
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  .xt-pre-header-left-content {
+    margin-bottom: 10px;
+  }
+  .header-contact-2 ul {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .header-contact-2 ul li {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    margin-right: 0px;
+    margin: 0 15px;
+  }
+  .xt-featured-list .featured-list-inner ul li,
+  ul.reptro_fancy_lists li {
+    margin: 15px 0 0;
+    text-align: left;
+    float: none;
+    display: block;
+  }
+  .xt-featured-list .featured-list-inner .btn {
+    margin-top: 20px;
+    float: left;
+  }
+  .xt-featured-list .featured-list-inner {
+    overflow: hidden;
+  }
+  .xt-contact .right {
+    float: none;
+  }
+  .xt-contact-inner {
+    text-align: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .xt-home-4 {
+    background: #f2f2f2 !important;
+  }
+  .reptro-carousel .carousel-indicators {
+    bottom: 7px;
+    margin-left: -50%;
+  }
+  .site-footer .footer-widgets .widget {
+    margin-bottom: 50px;
+  }
+  .site-footer .footer-widgets .widget:last-child{
+    margin-bottom: 0;
+  }
+  .reptro-carousel a.custom_slider_control.left, 
+  .reptro-carousel a.custom_slider_control.right {
+    top: inherit;
+    height: 35px;
+    width: 35px;
+    line-height: 36px;
+    bottom: 15px;
+  }
+  .comments-area {
+    padding-right: 0px;
+  }
+  .xt-author-area {
+      width: 100%;
+      padding-right: 0px;
+      overflow: hidden;
+      display: block;
+  }
+  .xt-page-title-area .entry-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .xt-service-two-area > .row > .xt-service-two-item, .xt-service-two-area > .row > .xt-service-two-item:nth-last-child(-n+2) {
+    border-bottom: 1px solid #ededed;
+  }
+  .xt-service-two-area > .row > .xt-service-two-item:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .admin-bar .menu-spacing.stick {
+    top: 0;
+  }
+  .reptro-course-loop-thumbnail-area img, .reptro-event-thumb-area img {
+    width: 100%;
+  }
+}
+
+/*
+|===================
+| SMALL MOBILE
+|===================
+*/
+@media only screen and (max-width: 480px) {
+  .xt-back-to-top {
+    bottom: 60px;
+  }
+  ul.reptro_fancy_lists {
+    margin-bottom: 0;
+  }
+  .reptro-events-items .reptro-event-item:last-child,
+  .xt-blog-post-grid .xt-blog:last-child {
+    margin-bottom: 30px;
+  }
+  .reptro-ctl-area {
+    max-width: 100%;
+  }
+  body.xt-site-layout-boxed.post-type-archive-tribe_events {
+    position: unset;
+  }
+  .events-archive .entry-content, .events-archive .entry-header {
+    width: 100%;
+  }
+  .curriculum-sections .section-header {
+    margin-bottom: 0;
+  }
+  .single-lp_course .reptro-course-items-area {
+    margin-bottom: 40px;
+  }
+  .xt-breadcrumb-wrapper {
+    margin-bottom: 0;
+  }
+  .course-tab-panel{
+    padding: 20px;
+  }
+  .course-summary .lp-course-buttons button.button.button-enroll-course {
+    margin-bottom: 0;
+  }
+  .course-summary .lp-course-buttons button {
+    margin: 0 15px 20px 0;
+  }
+  .course-summary .lp-course-buttons > button {
+    margin: 20px 15px 0 0;
+    display: inherit;
+  }
+  .xt-contact-phone .xt-contact-call-to-action-inner {
+    border: 0;
+    margin-bottom: 30px;
+  }
+  .xt-contact-call-to-action-inner {
+    padding: 0;
+  }
+  .xt-contact-call-to-action {
+    padding: 30px;
+  }
+  body .kc-elm {
+    float: unset;
+  }
+  body .navbar li {
+    padding: 0;
+  }
+  .reptro-section-title.section-title-font-size-xx_large {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .row > div:last-child .single-team,
+  .portfolio-container .grid-item:last-child,
+  .xt-skills .technical-skills .bar_group:last-child .elastic {
+    margin-bottom: 0;
+  }
+  .footer-widgets {
+    padding-top: 60px!important;
+    padding-bottom: 50px!important;
+  }
+  .xt-our-service {
+    margin-bottom: 20px;
+  }
+  .site-info {
+    text-align: center;
+  }
+  .xt_kc_row_has_container.xt_kc_row_has_padding .container .kc_column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .xt_kc_row_has_container.xt_kc_row_has_padding .container .row .kc_column {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .reptro-section-title.margin-bottom-small {
+    margin-top: 0;
+  }
+  h2.reptro-section-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .reptro-section-title.margin-top-xlarge,
+  .section-title-small.margin-top-large {
+    margin-top: 40px;
+  }
+  .reptro-section-title.margin-bottom-xlarge,
+  .section-title-small.margin-bottom-large {
+    margin-bottom: 40px;
+  }
+  .section-title-small {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .nav-previous a, .nav-next a {
+    float: inherit;
+    margin-top: 15px;
+  }
+  .comment-navigation .nav-previous, 
+  .posts-navigation .nav-previous, 
+  .post-navigation .nav-previous {
+  	width: 100%;
+  }
+  .post-navigation .nav-previous {
+  	float: inherit;
+  }
+  .xt-business-home .business-content p {
+    padding: 0;
+  }
+  .xt-business-home .bx-overlay {
+    padding-top: 80px!important;
+    padding-bottom: 80px!important;
+  }
+  .business-content {
+    padding: 0 15px;
+  }
+  .business-content > h2 {
+    margin-top: 0;
+  }
+  .xt-business-home.cover-bg.fix-bg.item {
+    height: auto!important;
+  }
+  .xt-featured-member #quote-carousel {
+    padding: 0px;
+    margin: 0px;
+  }
+  .xt-contact #map {
+    min-height: 350px;
+  }
+  .xt-business-home .business-content p {
+    margin: 30px 0;
+  }
+  .xt-featured-list .featured-list-inner .btn {
+    float: none;
+  }
+  .subpage-header .subpage-content p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .subpage-header .subpage-content h2 {
+    line-height: 55px;
+    font-size: 44px;
+  }
+  .business-content h2 {
+    font-size: 35px;
+    line-height: normal;
+  }
+  .xt-business-home.cover-bg.fix-bg.item {
+    height: 450px;
+  }
+  section.error-404.not-found {
+    padding: 40px 0;
+  }
+  .grid-item {
+    margin-top: 15px; 
+  }
+  .header-slider .slide-tablecell .slide-text h2 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .header-slider .owl-nav .owl-prev, .header-slider .owl-nav .owl-next {
+    top: unset;
+    bottom: 10px;
+  }
+  .header-slider .owl-nav .owl-prev {
+    left: 15px;
+  }
+  .header-slider .owl-nav .owl-next {
+    right: 15px;
+  }
+  .rtl .header-slider .owl-nav .owl-prev {
+    left: unset;
+    right: 15px;
+  }
+  .rtl .header-slider .owl-nav .owl-next {
+    right: unset;
+    left: 15px;
+  }
+}
+
+
+

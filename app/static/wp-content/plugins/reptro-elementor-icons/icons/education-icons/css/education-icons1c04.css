@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "ei-education";
+  src: url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/education-icons/fonts/Flaticon.eot");
+  src: url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/education-icons/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/education-icons/fonts/Flaticon.woff") format("woff"),
+       url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/education-icons/fonts/Flaticon.ttf") format("truetype"),
+       url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/education-icons/fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "ei-education";
+    src: url("http://reptro.xoothemes.com/wp-content/plugins/reptro-elementor-icons/icons/education-icons/fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="edi-"]:before, [class*=" edi-"]:before,
+[class^="edi-"]:after, [class*=" edi-"]:after {   
+  font-family: "ei-education";
+  font-style: normal;
+  display: inline-block;
+}
+
+.edi-abacus:before { 
+  content: "\f100"; 
+}
+.edi-bell:before { 
+  content: "\f101"; 
+}
+.edi-blackboard:before { 
+  content: "\f102"; 
+}
+.edi-blackboard-1:before { 
+  content: "\f103"; 
+}
+.edi-book:before { 
+  content: "\f104"; 
+}
+.edi-books:before { 
+  content: "\f105"; 
+}
+.edi-books-1:before { 
+  content: "\f106"; 
+}
+.edi-diploma:before { 
+  content: "\f107"; 
+}
+.edi-earth-globe:before { 
+  content: "\f108"; 
+}
+.edi-exam:before { 
+  content: "\f109"; 
+}
+.edi-exam-1:before { 
+  content: "\f10a"; 
+}
+.edi-ink:before { 
+  content: "\f10b"; 
+}
+.edi-library:before { 
+  content: "\f10c"; 
+}
+.edi-mortarboard:before { 
+  content: "\f10d"; 
+}
+.edi-open-book:before { 
+  content: "\f10e"; 
+}
+.edi-professor:before { 
+  content: "\f10f"; 
+}
+.edi-school-material:before { 
+  content: "\f110"; 
+}
+.edi-student:before { 
+  content: "\f111"; 
+}
+.edi-student-1:before { 
+  content: "\f112"; 
+}
+.edi-university:before { 
+  content: "\f113"; 
+}

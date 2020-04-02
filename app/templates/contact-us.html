@@ -1,0 +1,58 @@
+{% extends 'layout.html' %}
+
+
+{%block content%}
+<div class="our-dashbord dashbord">
+    <div class="dashboard_main_content">
+        <div class="container-fluid">
+            <div class="main_content_container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        {% include 'includes/dashboard-nav.html' %}
+
+                    </div>
+                    <div class="col-lg-12">
+                        <nav class="breadcrumb_widgets" aria-label="breadcrumb mb30">
+                            <h4 class="title float-left">Contact Us</h4>
+                            <ol class="breadcrumb float-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="my_course_content_container">
+                            <div class="my_setting_content mb30">
+
+                                <div class="row my_setting_content_details">
+                                    <div class="col-lg-12">
+                                    <form action="" method="post">
+                                        <div class="col-lg-12">
+                                            <div class="my_resume_textarea">
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlTextarea1">Message</label>
+                                                    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="7"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <button type="submit" class="my_setting_savechange_btn btn btn-thm">Send <span class="flaticon-right-arrow-1 ml15"></span></button>
+                                        </div>
+                                    </form>
+                                </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

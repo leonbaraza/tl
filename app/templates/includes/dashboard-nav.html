@@ -1,0 +1,15 @@
+<div class="dashboard_navigationbar dn db-1199">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10"></i> Dashboard Navigation</button>
+        <ul id="myDropdown" class="dropdown-content">
+            <li><a href="{{ url_for('account') }}"><span class="flaticon-puzzle-1"></span> My Account</a></li>
+            <li><a href="{{ url_for('all_bootcamps') }}"><span class="flaticon-online-learning"></span> My Bootcamps</a></li>
+            <li class="active"><a href="{{ url_for('my_payments') }}"><span class="flaticon-shopping-bag-1"></span> My Payments</a></li>
+            <li><a href="{{ url_for('all_bootcamps') }}"><span class="flaticon-speech-bubble"></span> FAQs</a></li>
+            <li><a href="{{ url_for('all_bootcamps') }}"><span class="flaticon-rating"></span> Contact Us</a></li>
+            <li><a href=""><span class="flaticon-settings"></span> Settings</a></li>
+            <li><a href=""><span class="flaticon-logout"></span> Logout</a></li>
+            
+        </ul>
+    </div>
+</div>

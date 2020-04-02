@@ -1,0 +1,314 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <body class="lp_course-template-default single single-lp_course postid-6042 wp-custom-logo theme-reptro reptro learnpress learnpress-page woocommerce-no-js tribe-no-js xt-site-layout-boxed xt-site-loading elementor-default">
+
+
+    <div id="page" class="site">
+
+
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+
+        {% include 'includes/navbar.html' %}<!-- #masthead -->
+
+
+        <div class="xt-page-title-area">
+            <div class="xt-page-title">
+                <div class="container">
+                    <h1 class="entry-title">{{ category_details.title }}</h1>
+                </div>
+            </div>
+            <div class="xt-breadcrumb-wrapper">
+                <div class="container">
+
+                    <nav class="learn-press-breadcrumb" itemprop="breadcrumb"><a
+                            href="{{url_for('login')}}">Home</a><i class="fa fa-caret-right"
+                                                                           aria-hidden="true"></i><a
+                            href="{{url_for('bootcamps')}}">Bootcamps</a><i class="fa fa-caret-right"
+                                                                                              aria-hidden="true"></i><a
+                            href="{{url_for('bootcamps')}}">{{ category_details.title }}</a><i
+                            class="fa fa-caret-right" aria-hidden="true"></i>{{ bootcamp.title }}
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="content" class="site-content">
+            <div class="site-content-inner container">
+                <div class="theme-main-content-inner row">
+
+                    <div id="primary" class="content-area col-lg-9">
+                        <main id="main" class="site-main">
+
+
+                            <article id="post-6042"
+                                     class="xt-single-course-item post-6042 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-short-courses course_category-technical-skill course">
+
+
+                                <div id="lp-single-course" class="lp-single-course">
+
+
+                                    <nav class="learn-press-breadcrumb" itemprop="breadcrumb"><a
+                                            href="">Home</a><i class="fa fa-caret-right"
+                                                                                           aria-hidden="true"></i><a
+                                            href="{{ url_for('bootcamps') }}">Bootcamps</a><i
+                                            class="fa fa-caret-right" aria-hidden="true"></i><a
+                                            href="{{ url_for('bootcamps') }}">{{ category_details.title }}</a>
+                                        <i class="fa fa-caret-right" aria-hidden="true"></i>{{ bootcamp.title }}
+                                    </nav>
+                                    <div id="learn-press-course" class="course-summary">
+
+
+                                        <div class="course-landing-summary">
+
+                                            <div class="xt-single-course-header clearfix">
+
+                                                <h1 itemprop="name" class="course-title entry-title">{{ bootcamp.title }}</h1>
+                                                <div class="course-meta">
+
+                                                    <div class="course-categories">
+                                                        <label>Duration</label>
+                                                        <div class="value">
+                                                    <span class="cat-links">
+                                                        <a href="">{{ bootcamp.duration }} Weeks</a>
+                                                    </span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="course-categories">
+                                                        <label>No of Lessons</label>
+                                                        <div class="value">
+                                                    <span class="cat-links">
+                                                        <a href="">30 Lessons</a>
+                                                    </span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="course-categories">
+                                                        <label>Categories</label>
+                                                        <div class="value">
+                                                    <span class="cat-links">
+                                                        <a href="">{{ category_details.title }}</a>
+                                                    </span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="xt-course-review">
+                                                        <label>Review</label>
+
+                                                        <div class="xt-review-stars-wrapper">
+                                                            <ul class="xt-review-stars">
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                            </ul>
+                                                            <ul class="xt-review-stars xt-fill" style="width: 45%">
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                                <li><span class="fa fa-star"></span></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span>(1 review)</span>
+                                                    </div>
+
+                                                </div>
+                                                <div class="course-payment">
+
+                                                    <div class="course-price">
+
+
+                                                        <span class="price">Kshs {{ bootcamp.fee }}</span>
+
+                                                    </div>
+
+
+                                                    <div class="lp-course-buttons">
+
+
+                                                        <form name="purchase-course" class="purchase-course"
+                                                              method="post"
+                                                              enctype="multipart/form-data">
+
+
+                                                            <input type="hidden" name="purchase-course" value="6042"/>
+                                                            <input type="hidden" name="purchase-course-nonce"
+                                                                   value="c0723af5a7"/>
+
+                                                            <button class="lp-button button button-purchase-course">
+                                                                Enroll
+                                                            </button>
+
+
+                                                        </form>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="course-thumbnail">
+                                                <a href="{{ url_for('static', filename="wp-content/uploads/2018/04/markus-spiske-357131-unsplash-copy-1.jpg") }}"
+                                                   itemprop="image" class="learn-press-single-thumbnail" title=""><img
+                                                        width="1200" height="560"
+                                                        src="{{ url_for('static', filename="wp-content/uploads/2018/04/markus-spiske-357131-unsplash-copy-1-1200x560.jpg") }}"
+                                                        class="attachment-reptro-blog-thumb size-reptro-blog-thumb wp-post-image"
+                                                        alt="markus-spiske-357131-unsplash copy"
+                                                        title="markus-spiske-357131-unsplash copy"/></a></div>
+
+
+                                            <div id="learn-press-course-tabs" class="course-tabs">
+
+                                                <ul class="learn-press-nav-tabs course-nav-tabs">
+
+
+                                                    <li class="course-nav course-nav-tab-overview active default">
+                                                        <a href=""
+                                                           data-tab="#tab-overview">Overview</a>
+                                                    </li>
+
+
+                                                    <li class="course-nav course-nav-tab-curriculum">
+                                                        <a href=""
+                                                           data-tab="#tab-curriculum">Curriculum</a>
+                                                    </li>
+
+
+                                                    <li class="course-nav course-nav-tab-instructor">
+                                                        <a href=""
+                                                           data-tab="#tab-instructor">Comments</a>
+                                                    </li>
+
+
+                                                    <li class="course-nav course-nav-tab-reviews">
+                                                        <a href=""
+                                                           data-tab="#tab-reviews">Reviews</a>
+                                                    </li>
+
+
+                                                </ul>
+
+
+                                                <div class="course-tab-panel-overview course-tab-panel active"
+                                                     id="tab-overview">
+
+
+                                                    <div class="row">
+                                                        <div class="xt-course-content col-lg-8">
+                                                            <div class="course-description"
+                                                                 id="learn-press-course-description">
+
+                                                               {{ bootcamp.description|safe }}
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="xt-course-info col-lg-4">
+
+
+                                                            <h3>Requirements</h3>
+
+                                                            <ul>
+                                                                {% for req in requirements %}
+                                                                    <li><i class="fa fa-clock-o"
+                                                                       aria-hidden="true"></i><span
+                                                                        class="course-info-label">{{ req }}</span>
+                                                                        <!-- <span class="course-info-value">10 week</span></li> -->
+                                                                {% endfor %}
+
+
+
+                                                            </ul>
+                                                            <h3>Provisions</h3>
+
+                                                            <ul>
+                                                                {% for pro in provisions %}
+                                                                    <li><i class="fa fa-clock-o"
+                                                                       aria-hidden="true"></i><span
+                                                                        class="course-info-label">{{ pro }}</span>
+                                                                        <!-- <span class="course-info-value">10 week</span></li> -->
+                                                                {% endfor %}
+
+
+                                                            </ul>
+
+                                                            <button class="button-purchase-course">
+                                                                Enroll
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="course-tab-panel-curriculum course-tab-panel"
+                                                     id="tab-curriculum">
+
+                                                    <h3>Curriculum comes here</h3>
+                                                    
+                                                </div>
+
+
+                                                <div class="course-tab-panel-instructor course-tab-panel"
+                                                     id="tab-instructor">
+
+
+                                                    <div class="course-author">
+
+                                                        <h3>Comments come here</h3>
+
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="course-tab-panel-reviews course-tab-panel"
+                                                     id="tab-reviews">
+
+
+                                                    <h3>Rating comes here</h3>
+
+                                                </div>
+
+
+                                            </div>
+
+
+
+    <!---------------------------RELATED CORSES COMES HERE ------------------------------------ -->
+                                            
+                                            {% include 'includes/related-courses.html' %}
+
+    <!---------------------------RELATED CORSES COMES HERE ------------------------------------ --> 
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </article><!-- #post-## -->
+                            
+                        </main><!-- #main -->
+                    </div><!-- #primary -->
+
+
+<!-- -------------------------- ASIDE COMES HERE ----------------- -->
+
+
+<!-- -------------------------- ASIDE COMES HERE ----------------- -->
+                    
+                    <!-- #secondary -->
+
+                </div>
+            </div> <!-- site-content-inner -->
+        </div><!-- #content -->
+
+        {% include 'includes/footer.html' %}<!-- #colophon -->
+    </div><!-- #page -->
+{% endblock %}
+
+

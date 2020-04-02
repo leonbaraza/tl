@@ -1,0 +1,25 @@
+{% extends 'admin/layout.html' %}
+
+{% block content %}
+    
+    <form action="" method="POST">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Concept Title</label>
+            <input type="title" name="concept_title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Concept URL</label>
+            <input type="bootcamp" name="concept_link" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Bootcamp</label>
+            <input type="bootcamp" name="bootcamp_id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Bootcamp URL</label>
+            <input type="bootcamp" name="bootcamp_url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+{% endblock %}

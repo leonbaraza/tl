@@ -8,6 +8,8 @@ class UsersModel(db.Model):
 
     # relationships
     userBootcampEnrollmentModel = db.relationship('UserBootcampEnrollmentModel', backref="users")
+    contactModel = db.relationship('ContactModel', backref="users")
+
 
     # add new users
     def newUsers(self):

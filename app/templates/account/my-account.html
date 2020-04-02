@@ -1,0 +1,81 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<body class="lp_course-template-default single single-lp_course postid-6042 wp-custom-logo theme-reptro reptro learnpress learnpress-page woocommerce-no-js tribe-no-js xt-site-layout-boxed xt-site-loading elementor-default">
+
+
+    <div id="page" class="site">
+
+
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+
+        {% include 'includes/navbar.html' %}<!-- #masthead -->
+        
+        <div id="content" class="site-content">
+            <div class="site-content-inner container">
+                <div class="theme-main-content-inner row">
+
+                    <div id="primary" class="content-area col-lg-8">
+                        <main id="main" class="site-main">
+
+
+                            <article id="post-6042"
+                                     class="xt-single-course-item post-6042 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-short-courses course_category-technical-skill course">
+
+
+                                <div id="lp-single-course" class="lp-single-course">
+        
+                                    <div id="learn-press-course" class="course-summary">
+
+
+                                        <div class="course-landing-summary">
+                                            <div class="xt-single-course-header clearfix">
+                                                <h3 class="reptro-shortcode-title">Completed Bootcamps</h3>
+
+                                                <div class="container">
+                                                    <p>It looks like you are not enrolled for any bootcamp</p>
+                                                    <button class="lp-button button button-purchase-course">
+                                                        Browse All Bootcamps
+                                                    </button>
+                                                </div>                                              
+                                                
+                                            </div>
+                                            <div class="xt-single-course-header clearfix">
+                                                <h3 class="reptro-shortcode-title">Enrolled Bootcamps</h3>
+
+                                                <div class="container">
+                                                    <p>It looks like you are not enrolled for any bootcamp</p>
+                                                    <button class="lp-button button button-purchase-course">
+                                                        Browse All Bootcamps
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            <!---------------------------RELATED CORSES COMES HERE ------------------------------------ -->
+                                                                                
+                                                                            {% include 'includes/related-courses.html' %}
+
+                                            <!---------------------------RELATED CORSES COMES HERE ------------------------------------ -->                                
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </main>
+                        </div>
+
+
+                        <!-- ------------------------ ACCOUNT DETAILS ----------------------- -->
+                                    {% include 'includes/account-aside.html' %}
+                        
+                        <!-- ------------------------ ACCOUNT DETAILS ----------------------- -->
+
+
+
+                        </div>
+                    </div>
+                </div>
+                {% include 'includes/footer.html' %}
+    </div>
+
+{% endblock %}

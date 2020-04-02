@@ -13,6 +13,13 @@ from models.BootcampSessions import BootcampSessionModel
 from models.EnrollPayments import EnrollPaymentsModel
 from models.UserBootcampAttendance import UserBootcampAttendanceModel
 from models.UserBootcampEnrollments import UserBootcampEnrollmentModel
+from models.Category import CategoryModel
+from models.Section import SectionModel
+from models.Consept import ConceptModel
+from models.Contact import ContactModel
+from models.sessions import SessionsModel
+
+
 
 
 @app.before_first_request

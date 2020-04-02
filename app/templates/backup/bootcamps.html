@@ -1,0 +1,206 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<body class="page-template-default page page-id-5239 wp-custom-logo theme-reptro woocommerce-no-js tribe-no-js xt-page-layout-full-width xt-has-page-title xt-no-page-sidebar xt-site-layout-boxed xt-site-loading elementor-default elementor-kit-8116 elementor-page elementor-page-5239">
+
+
+<div id="page" class="site">
+
+
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+
+    {% include 'includes/navbar.html' %}<!-- #masthead -->
+
+
+    <div class="xt-page-title-area">
+        <div class="xt-page-title">
+            <div class="container">
+                <h1 class="entry-title">Our Bootcamps</h1>
+            </div>
+        </div>
+        <div class="xt-breadcrumb-wrapper">
+            <div class="container">
+                <nav class="xt-breadcrumb">
+                    <ul>
+                        <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a
+                                href="" itemprop="url"><span
+                                itemprop="title">Home</span></a></li>
+                        <li class="current">Bootcamps</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="content" class="site-content">
+        <div class="site-content-inner fullwidth_page">
+            <div class="theme-main-content-inner">
+                <div id="primary" class="content-area page_no_sidebar">
+                    <main id="main" class="site-main">
+
+
+                        <article id="post-5239" class="post-5239 page type-page status-publish hentry">
+                            <div class="entry-content">
+                                <div data-elementor-type="wp-post" data-elementor-id="5239"
+                                     class="elementor elementor-5239 elementor-bc-flex-widget"
+                                     data-elementor-settings="[]">
+                                    <div class="elementor-inner">
+                                        <div class="elementor-section-wrap">
+                                            <section
+                                                    class="elementor-element elementor-element-2e1edd52 elementor-section-boxed elementor-section-height-default elementor-section-height-default reptro-section-padding-large reptro_section_top_bottom_padding_no elementor-section elementor-top-section"
+                                                    data-id="2e1edd52" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-extended">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-7eded1a2 elementor-column elementor-col-100 elementor-top-column"
+                                                             data-id="7eded1a2" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+
+                                                                    <div class="elementor-element elementor-element-630ad27b elementor-widget elementor-widget-reptro_course"
+                                                                         data-id="630ad27b" data-element_type="widget"
+                                                                         data-widget_type="reptro_course.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="reptro-course-items-area reptro-course-items-area-grid">
+
+
+                                                                                <div class="reptro-category-items-filter">
+                                                                                    <ul class="reptro-category-items">
+                                                                                        <li class="reptro-category-item active"
+                                                                                            data-filter="*">
+                                                                                            <span>All</span></li>
+                                                                                        <li class="reptro-category-item reptro-category-item-18"
+                                                                                            data-filter=.reptro_cat_18>
+                                                                                            <span>Web Development</span>
+                                                                                        </li>
+                                                                                        <li class="reptro-category-item reptro-category-item-22"
+                                                                                            data-filter=.reptro_cat_22>
+                                                                                            <span>Android Development</span>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <ul class=" reptro-course-items reptro-course-grid row reptro-course-isotope">
+
+
+                                                        
+                                                                                    {% for bootcamp in bootcamps %}
+                                                                                        <li id="post-6042"
+                                                                                        class="col-lg-4 col-md-6 reptro_cat_32 reptro_cat_35 post-6042 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-short-courses course_category-technical-skill course">
+
+                                                                                            <div class="reptro-course-loop-thumbnail-area">
+                                                                                                <div class="reptro-course-details-btn">
+                                                                                                    <a class="btn btn-fill btn-lg"
+                                                                                                       href="{{ url_for("bootcamp_details", bootcamp_id=bootcamp.id) }}">Details</a>
+                                                                                                </div>
+
+                                                                                                <div class="course-thumbnail">
+
+                                                                                                    <img width="570"
+                                                                                                         height="461"
+                                                                                                         src="/static/wp-content/uploads/2018/04/markus-spiske-357131-unsplash-copy-1-570x461.jpg"
+                                                                                                         class="attachment-reptro-course-thumb size-reptro-course-thumb wp-post-image"
+                                                                                                         alt="Javascript Online Course"/>
+                                                                                                </div>
+                                                                                                <div class="reptro-course-loop-price-and-rating">
+                                                                                                    <div class="course-price">
+
+
+                                                                                                        <span class="price">Kshs {{ bootcamp.fee }}</span>
+
+
+                                                                                                    </div>
+                                                                                                    <div class="xt-course-review">
+
+                                                                                                        <div class="xt-review-stars-wrapper">
+                                                                                                            <ul class="xt-review-stars">
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                            </ul>
+                                                                                                            <ul class="xt-review-stars xt-fill"
+                                                                                                                style="width: 40%">
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                                <li><span
+                                                                                                                        class="fa fa-star"></span>
+                                                                                                                </li>
+                                                                                                            </ul>
+                                                                                                        </div>
+                                                                                                        <span>(1 review)</span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="reptro-course-item-inner">
+                                                                                                <a href="{{ url_for("bootcamp_details", bootcamp_id=bootcamp.id) }}"
+                                                                                                   class="course-permalink">
+
+
+                                                                                                    <h3 class="course-title">{{ bootcamp.title }}</h3>
+                                                                                                </a>
+
+
+                                                                                            </div>
+                                                                                        </li>
+                                                                                    {% endfor %}
+
+
+                                                                                </ul>
+
+                                                                                <div class="text-center reptro-all-courses-btn">
+                                                                                    <a class="btn btn-lg btn-fill"
+                                                                                       href="">All
+                                                                                        Courses</a>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .entry-content -->
+
+                        </article><!-- #post-## -->
+
+                    </main><!-- #main -->
+                </div><!-- #primary -->
+
+
+            </div>
+        </div> <!-- site-content-inner -->
+    </div><!-- #content -->
+
+    {% include 'includes/footer.html' %}<!-- #colophon -->
+</div><!-- #page -->
+
+{% endblock %}

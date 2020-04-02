@@ -1,0 +1,36 @@
+{% extends 'admin/layout.html' %}
+
+{% block content %}
+        <form action="" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Title</label>
+                <input type="title" name="title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Description</label>
+                <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Requirements</label>
+                <input type="requirements" name="requirements" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Fees</label>
+                <input type="fees" name="fees" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Provisions</label>
+                <input type="provisions" name="provisions" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Duration</label>
+                <input type="duration" name="duration" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Category</label>
+                <input type="category" name="category" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+ 
+{% endblock %}

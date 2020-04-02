@@ -1,0 +1,72 @@
+{% extends 'layout.html' %}
+
+
+{%block content%}
+<div class="our-dashbord dashbord">
+    <div class="dashboard_main_content">
+        <div class="container-fluid">
+            <div class="main_content_container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        {% include 'includes/dashboard-nav.html' %}
+                    </div>
+                    <div class="col-lg-12">
+                        <nav class="breadcrumb_widgets" aria-label="breadcrumb mb30">
+                            <h4 class="title float-left">My Bootcamps</h4>
+                            <ol class="breadcrumb float-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-lg-12">
+                        
+                        <div class="my_course_content_container">
+                            <div class="my_setting_content">
+                                
+                                <div class="my_setting_content_details pb0">
+                                    <div class="cart_page_form style2">
+                                        <table class="table table-responsive">
+                                            <thead>
+                                              <tr class="">
+                                                  <th class="cartm_title">Bootcamp</th>
+                                                  <th class="cartm_title">Duration</th>
+                                                  <th class="cartm_title">Status</th>
+                                                  <th class="cartm_title">Start</th>
+                                                  <th class="cartm_title">Duration</th>
+                                                  <th class="cartm_title">Action</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody class="table_body">
+                                              {% for bc in bootcamps %}
+                                                <a href="#">
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <a href="{{ url_for('bootcamp_section', bootcamp_id=bc.id) }}">{{bc.title}}</a>
+                                                        </th>
+                                                        <td>{{bc.duration}} Weeks</td>
+                                                        <td>Fully Paid</td>
+                                                        <a href=""><td>02:00pm</td></a>
+                                                        <a href=""><td>3 hours</td></a>
+                                                        <td class="text-thm tdu"><a href="#"></a>View Section</a></td>
+                                                    </tr>
+                                                </a>
+                                              {% endfor %}
+                                              
+                                            </tbody>
+                                      </table> 
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+{%endblock%}

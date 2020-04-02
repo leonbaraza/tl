@@ -7,7 +7,7 @@ class UserBootcampEnrollmentModel(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     bootcamp_id = db.Column(db.Integer, db.ForeignKey('bootcamps.id'))
 
-    enrollPaymentsModel = db.relationship('enrollPaymentsModel', backref="user_bootcamp_enrollments")
+    enrollPaymentsModel = db.relationship('EnrollPaymentsModel', backref="user_bootcamp_enrollments")
 
     # add new users
     def newUsers(self):

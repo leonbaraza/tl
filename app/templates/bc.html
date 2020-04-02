@@ -1,0 +1,40 @@
+<div class="mc_content_list style2">
+                                        <div class="thumb">
+                                            <img class="img-whp" src="{{ url_for( 'static', filename='images/courses/t2.jpg' ) }}" alt="t2.jpg">
+                                            <div class="overlay">
+                                                <ul class="mb0">
+                                                    <!-- <li class="list-inline-item">
+                                                        <a class="mcc_edit" href="#">Edit</a>
+                                                    </li> -->
+                                                    <li class="list-inline-item">
+                                                        <a class="mcc_view" href="{{ url_for('bootcamps_details', bootcamp_id=bootcamp.id) }}">View</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <div class="mc_content">
+                                                
+                                                <h5 class="title">{{ bootcamp.title }}</h5>
+                                                <p>{{ bootcamp.description|safe }}</p>
+                                            </div>
+                                            <div class="mc_footer style2">
+                                                <ul class="mc_meta fn-414">
+                                                    <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                                    <li class="list-inline-item"><a href="#">1548</a></li>
+                                                    <li class="list-inline-item" title="Comments"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                                    <li class="list-inline-item" title="Comments"><a href="#">25</a></li>
+                                                </ul>
+                                                <ul class="mc_review fn-414">
+                                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                                    <li class="list-inline-item"><a href="#">(5)</a></li>
+                                                    <li class="list-inline-item tc_price fn-414"><a href="#">Kshs {{bootcamp.fee}}</a></li>
+                                                </ul>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
