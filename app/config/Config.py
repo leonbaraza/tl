@@ -3,7 +3,7 @@ import secrets
 
 class Config():
     SECRET_KEY = secrets.token_hex(16)
-    # SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
 class Development(Config):
